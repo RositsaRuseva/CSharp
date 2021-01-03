@@ -1,0 +1,49 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace BasicStackOperations
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] input = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
+            int toPush = input[0];
+            int toPop = input[1];
+            int contains = input[2];
+
+            int[] input2 = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
+            Stack<int> stack = new Stack<int>();
+            for (int i = 0; i < toPush; i++)
+            {   
+                    stack.Push(input2[i]);           
+            }
+            for (int i = 0; i < toPop; i++)
+            {
+                stack.Pop();                    
+            }
+            if(stack.Contains(contains))
+            {
+                Console.WriteLine("true");
+            }
+            else if(stack.Count == 0)
+            {
+                Console.WriteLine("0");
+            }
+            else
+            {
+                int smallest = int.MaxValue;
+                foreach (var item in stack)
+                {
+                    if (item < smallest)
+                    {
+                        smallest = item;
+                    }
+
+                }
+                Console.WriteLine(smallest);
+            }
+        }
+    }
+}
