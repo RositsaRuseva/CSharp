@@ -1,0 +1,18 @@
+CREATE TABLE People(
+	Id BIGINT PRIMARY KEY IDENTITY NOT NULL,
+	[Name] VARCHAR(200) NOT NULL,
+	Picture VARBINARY(MAX),
+	Height DECIMAL (5,2),
+	[Weight] DECIMAL (5,2),
+	Gender CHAR (1),
+	Birthdate DATE NOT NULL, 
+	Biography NVARCHAR(MAX)
+)
+  
+INSERT INTO People ([Name],Picture,Height,[Weight],Gender,Birthdate,Biography)
+	VALUES
+			('Stanislava', NULL, 164, 70, 'F','1994/10/16', NULL ),
+			('Rositsa', NULL, 168, 48, 'F', '1998/08/24', NULL),
+			('Dayana', NULL, 158, 43, 'F', '1998/11/09', NULL),
+			('Nikolay', NULL, 186, 100, 'M', '1984/09/15', NULL),
+			('Mariana', NULL, 162, 43, 'F', '1984/11/20', NULL)
