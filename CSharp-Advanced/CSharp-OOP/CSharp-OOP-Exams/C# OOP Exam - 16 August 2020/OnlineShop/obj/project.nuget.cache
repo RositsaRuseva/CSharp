@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "BzYuzbAVcIlz4eunV8EKdujRQNvPFH0zJxCXWSL7fOycL4u6BOShcF+omw3/tD+YYrXXIgWzhD1UdnsnvYAGCw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rositsa Ruseva\\Desktop\\HTML\\Философия на съзнанието\\C# OOP Exam - 16 August 2020\\OnlineShop-Skeleton\\OnlineShop\\OnlineShop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rositsa Ruseva\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Rositsa Ruseva\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Rositsa Ruseva\\Desktop\\HTML\\Философия на съзнанието\\C# OOP Exam - 16 August 2020\\OnlineShop-Skeleton\\OnlineShop\\obj\\project.nuget.cache : Found invalid data while decoding."
+    }
+  ]
+}

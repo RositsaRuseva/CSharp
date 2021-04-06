@@ -1,0 +1,4 @@
+C:\Users\Rositsa Ruseva\Desktop\HTML\Философия на съзнанието\C# OOP Exam - 16 August 2020\OnlineShop-Skeleton\OnlineShop\obj\Debug\netcoreapp3.1\OnlineShop.csprojAssemblyReference.cache
+C:\Users\Rositsa Ruseva\Desktop\HTML\Философия на съзнанието\C# OOP Exam - 16 August 2020\OnlineShop-Skeleton\OnlineShop\obj\Debug\netcoreapp3.1\OnlineShop.AssemblyInfoInputs.cache
+C:\Users\Rositsa Ruseva\Desktop\HTML\Философия на съзнанието\C# OOP Exam - 16 August 2020\OnlineShop-Skeleton\OnlineShop\obj\Debug\netcoreapp3.1\OnlineShop.AssemblyInfo.cs
+C:\Users\Rositsa Ruseva\Desktop\HTML\Философия на съзнанието\C# OOP Exam - 16 August 2020\OnlineShop-Skeleton\OnlineShop\obj\Debug\netcoreapp3.1\OnlineShop.csproj.CoreCompileInputs.cache
