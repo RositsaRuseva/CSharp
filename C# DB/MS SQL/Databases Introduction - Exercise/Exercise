@@ -1,0 +1,5 @@
+--Update Stuart's age
+
+UPDATE [dbo.Minions]
+  SET [Age] = 10
+  WHERE [Name] = 'Stuart';
